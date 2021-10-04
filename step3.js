@@ -40,7 +40,7 @@ async function webCat(url, out){
 let path;
 let out;
 
-if (process.argv[2] === '---out') {
+if (process.argv[2] === '--out') {
     out = process.argv[3];
     path = process.argv[4];
 } else {
